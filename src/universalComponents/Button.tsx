@@ -10,7 +10,7 @@ export const Button=(props: PropsType)=> {
     callBack()
     }
 return(
-    <button onclick={onClickHandler}>{name}</button>
+    <button onClick={onClickHandler}>{name}</button>
 )
 
 }
